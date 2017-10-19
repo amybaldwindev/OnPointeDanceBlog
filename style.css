@@ -1,6 +1,36 @@
 body {
-	/*Photo from https://cdn.pixabay.com/photo/2017/01/06/16/00/dance-1958128_960_720.jpg*/
 	background: url(images/cork-wallet.png);
+}
+h1 {
+	margin: 10px 0 0;
+}
+header {
+	font-family: 'Lobster', cursive;
+	font-size: 2rem;
+	text-align: center;
+	margin: 0 auto;
+	width: 70%;
+	color: #BD733F;
+}
+article {
+	background: #FFF;
+	font-family: 'Oxygen', sans-serif;
+	margin: 0 auto;
+	padding: 3%;
+	width: 70%;
+}
+.article-info {
+	font-family: 'Cormorant Garamond', serif;
+	font-size: 1em;
+	margin: 0 auto;
+	width: 70%;
+	color: #9D7121;
+}
+hr {
+	margin: 0 -3% 2%;
+}
+.article-info h2{
+	font-style: italic;
 }
 
 img {
@@ -8,58 +38,6 @@ img {
 	max-width: 400px;
 	padding: 5px 20px;
 }
-
-footer{
-	margin: 0 auto;
-	padding: 40px;
-	width: 70%;
-}
-footer a {
-	background: #FFDFA4; /*light gold*/
-	border: 7px dotted #448E84;/*turquosie*/
-	color: #1D3968;
-	display: inline-block;
-	font-weight: 700;
-	margin-right: 10px;
-	padding: 10px;
-	text-align: center;
-	text-decoration: none;
-	text-transform: uppercase;
-	transition: ease .8s all;
-}
-footer a:hover {
-	background: #FFCAA4;/*light pink*/
-	color: #0A224C; /*dark blue*/
-}
-
-.top-header{
-	color: #BD733F;
-	font-family: 'Lobster', cursive;
-	margin: 0 auto;
-	text-align: center;
-	width: 70%;
-}
-
-.article-info {
-	color: #9D7121;
-	font-family: 'Quattrocento', serif;
-	margin: 0 auto;
-	padding: 10px;
-	width: 70%;
-}
-
-.article-info h2{
-	font-style: italic;
-}
-
-.content-container {
-	background: #FFF;
-	font-family: 'Oxygen', sans-serif;
-	margin: 0 auto;
-	padding: 10px;
-	width: 70%;
-}
-
 
 .lft {
 	float:left;
@@ -69,6 +47,11 @@ footer a:hover {
 	float:right;
 	padding: 10px 0 10px 20px;
 }
+p {
+	font-family: 'Oxygen', sans-serif;
+	line-height: 1.5rem;
+}
+
 .videoWrapper {
 	position: relative;
 	padding-bottom: 56.25%; /* 16:9 */
@@ -82,6 +65,29 @@ footer a:hover {
 	width: 100%;
 	height: 100%;
 }
-
+footer{
+	margin: 0 auto;
+	padding: 2%;
+	width: 70%;
+}
+footer a {
+	background: #FFDFA4; /*light gold*/
+	border: 1px solid #448E84;/*turquosie*/
+	border-radius: 50px;
+	display: inline-block;
+	margin-right: 10px;
+	padding: 10px;
+	transition: ease .8s all;
+	font-family: 'Cormorant Garamond', serif;
+	font-weight: 600;
+	text-align: center;
+	text-decoration: none;
+	text-transform: capitalize;
+	color: #1D3968;
+}
+footer a:hover {
+	background: #FFCAA4;/*light pink*/
+	color: #0A224C; /*dark blue*/
+}
 /* Color Pallet */
 /* Color Pallet available at: http://paletton.com/#uid=70q0u0kllnGbo-ogOsrpnjIuCem */
