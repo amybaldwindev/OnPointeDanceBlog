@@ -1,5 +1,5 @@
 body {
-	background: url(images/cork-wallet.png);
+	background: url(images/pink-rice.png);
 }
 h1 {
 	margin: 10px 0 0;
@@ -10,7 +10,7 @@ header {
 	text-align: center;
 	margin: 0 auto;
 	width: 70%;
-	color: #BD733F;
+	color: #361905;
 }
 article {
 	background: #FFF;
@@ -24,7 +24,7 @@ article {
 	font-size: 1em;
 	margin: 0 auto;
 	width: 70%;
-	color: #9D7121;
+	color: #361905;
 }
 hr {
 	margin: 0 -3% 2%;
